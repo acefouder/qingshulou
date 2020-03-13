@@ -1,0 +1,51 @@
+/* pages/about3/about3.wxss */
+.lunbo {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.lunbo image {
+  height: 100%;
+  width: 100%;
+}
+
+.hztitle{
+display:flex;
+align-items:center;
+justify-content:center;
+font-size: 16px;
+font-family: microsoft yahei;
+color: rgb(49, 8, 8);
+}
+
+.abcont{
+display:flex;
+align-items:center;
+justify-content:center;
+line-height: 80rpx;
+font-size: 14px;
+font-family: microsoft yahei;
+color: rgb(19, 19, 26);
+}
+.tanchuan{
+align-items:center;
+justify-content:center;
+
+}
+
+.tanchuan image{
+width: 555rpx;
+height: 560rpx;
+/* margin: 10rpx 20rpx 0rpx 0rpx;
+float: left;*/
+}
+.tctext{
+display:flex;
+align-items:center;
+justify-content:center; 
+font-size: 16px;
+color:rgb(15, 163, 64);
+}

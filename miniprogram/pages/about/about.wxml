@@ -1,0 +1,46 @@
+<!-- 轮播图 -->
+<swiper class='lunbo' indicator-dots="true" autoplay="true" interval="3000" circular="true">
+<swiper-item>
+<image src="/image/yiq0.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="/image/yiq.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="/image/yiq1.jpg"></image>
+</swiper-item>
+</swiper>
+
+<view class='aboutbo'>
+
+  <text class='hztitle' style="margin:30rpx">愿人海陌路，再无牵挂</text>
+  <ad unit-id="adunit-27aaa1280315e1a2"></ad>
+  <text class='abcont'>夜已深，气候冷，小书房窗台旁，一道独影。\n容颜老，心沧然，今日今时，君何在！\n红尘陌上，踯躅数十载，是为等待，等风亦等你！\n夜色浓，以酒消愁，奈何酒入喉肠愁更愁。\n独灯照孤影，冬雨敲窗棂。\n执笔挥墨，一行文字述情愁，半壶墨汁慰相思。\n时也，缘也，命也！\n心意愁，往事幕幕上心头。\n然，景物依旧，人却早已两分飞。\n仰天望，朝天喃，此时此刻，君可如我同相思？
+</text>
+
+   <!-- <view class='container'>
+
+    <button class='button' bindtap='buttonTap' type='primary'>联系我们</button>
+    <modal title="我是标题" hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel">
+      <view>
+        <image class="image" src="../images/yihan.jpg" mode='aspectFill'></image>
+      </view>
+      <view>You say that you love rain</view>
+    </modal>
+  </view>-->
+ 
+
+ <view class='submitBtnView' style="margin:30rpx">
+      <button type="primary" formType="submit" plain="true" bindtap="buttonTap">书中红颜</button>
+    <modal title="保存二维码" hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel">
+      <view class="tanchuan">
+        <image class="image" src="../../image/ab3.jpg" mode='aspectFill'></image>
+      </view>
+      <view class='tctext'>如花美眷，似水流年</view>
+    </modal>
+   
+   
+    </view>
+
+
+</view>

@@ -1,0 +1,46 @@
+<!-- 轮播图 -->
+<swiper class='lunbo' indicator-dots="true" autoplay="true" interval="3000" circular="true">
+<swiper-item>
+<image src="/image/ab0.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="/image/ab1.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="/image/ab2.jpg"></image>
+</swiper-item>
+</swiper>
+
+<view class='aboutbo'>
+
+  <text class='hztitle' style="margin:30rpx">风烟流年，执手红尘</text>
+  <ad unit-id="adunit-27aaa1280315e1a2"></ad>
+  <text class='abcont'>夜朝朝暮暮，凝字为爱。\n两相依，如花眷恋，你是我独守的暖。\n不相负，繁华唇语缠绵。\n那日，长空阴晦，如我的心情。\n踩着碎碎的感伤，闭上眼帘。\n记不起你完整的笑容，千年红尘。\n就在这一刻泛起绵绵情愁，我的世界开始下雪。
+</text>
+
+   <!-- <view class='container'>
+
+    <button class='button' bindtap='buttonTap' type='primary'>联系我们</button>
+    <modal title="我是标题" hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel">
+      <view>
+        <image class="image" src="../images/yihan.jpg" mode='aspectFill'></image>
+      </view>
+      <view>You say that you love rain</view>
+    </modal>
+  </view>-->
+ 
+
+ <view class='submitBtnView' style="margin:30rpx">
+      <button type="primary" formType="submit" plain="true" bindtap="buttonTap">书中红颜</button>
+    <modal title="保存二维码" hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel">
+      <view class="tanchuan">
+        <image class="image" src="../../image/ab13.jpg" mode='aspectFill'></image>
+      </view>
+      <view class='tctext'>染火枫林，琼壶歌月</view>
+    </modal>
+   
+   
+    </view>
+
+
+</view>
