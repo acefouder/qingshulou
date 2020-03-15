@@ -7,8 +7,8 @@ const {
 
 cloud.init()
 
-const appId = 'wx3df7843052d84021'; // 小程序 appId
-const secret = 'bf0b5e56a3272e870fa3761dc97013cc'; // 小程序 secret
+const appId = 'wxcc1f432f97e37d6f'; // 小程序 appId
+const secret = '74eae2d0f0b6278a6150cdc1d5190b65'; // 小程序 secret
 
 
 exports.main = async (event, context) => {

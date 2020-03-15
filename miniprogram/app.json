@@ -5,7 +5,8 @@
     "pages/about/about",
     "pages/about1/about1",
     "pages/about2/about2",
-    "pages/about3/about3"
+    "pages/about3/about3",
+    "pages/about4/about4"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

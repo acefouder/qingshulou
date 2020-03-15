@@ -2,7 +2,7 @@
 const db = wx.cloud.database();
 const message = db.collection("message");
 const author = db.collection("author");
-const lessonSubId = 'I74TH_gAAUjOF8uSKzriTb4dNYDY4cQUK2WYwiGgog4'; //订阅消息模板id：wpWjGZ2n58TiFg_tkTpXj3zUhFjmeOaHwNVl1WmSOD4
+const lessonSubId = 'yUibU7pL32y0GELrJUIPxSIWraieTwySBT_CRXsEx6Q'; //订阅消息模板id：wpWjGZ2n58TiFg_tkTpXj3zUhFjmeOaHwNVl1WmSOD4
 
 
 Page({

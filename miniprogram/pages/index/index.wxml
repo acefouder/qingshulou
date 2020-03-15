@@ -8,12 +8,12 @@
 <van-popup show="{{ show }}" bind:close="onClose" position="top" custom-style="height: 50%;" round closeable>
   <form bindsubmit="onSubmit">
     <view class="writeView">
-      <van-cell title=" 挥 毫 笔 墨 " />
+      <van-cell title="挥毫笔墨" />
       <view class="textArea">
-        <textarea value="{{textValue}}" style="height: 3em" placeholder="如龙在天，威慑千里" placeholder-style="color:green;" name="pageName" />
+        <textarea value="{{textValue}}" style="height: 2em" placeholder="如龙在天，威慑千里" placeholder-style="color:gray;" name="pageName" />
       </view>
       <view class="textArea">
-        <textarea value="{{textValue}}" style="height: 3em" placeholder="深蛟入海，所向睥睨" placeholder-style="color:green;" name="pageDiscribe" />
+        <textarea value="{{textValue}}" style="height: 3em" placeholder="深蛟入海，所向睥睨" placeholder-style="color:gray;" name="pageDiscribe" />
       </view>
     </view>
     <view class='submitBtnView'>
@@ -52,9 +52,15 @@
   <van-cell title="静水流深，沧笙踏歌" label="终是谁使弦断，花落肩头，恍惚迷离、纸张有些破旧，有些模糊。" />
 </navigator>
 <navigator url="../about3/about3">
-  <van-cell title="一朝春去红颜老，花落人亡两不知" label="多少红颜悴，多少相思碎，唯留血染墨香哭乱冢。" />
+  <van-cell title="雨醉江南，烟雨弥漫" label="戏耍诸侯，美人在怀，烽火连城，心中却藏着执念，待我一统江山，许你红妆盛世。" />
 </navigator>
+<navigator url="../about4/about4">
+  <van-cell title="人生一梦，白云苍狗" label="错错对对，恩恩怨怨，终不过日月无声、水过无痕。所难弃者，一点痴念而已！" />
+</navigator>
+
+
 <!-- 页面列表 -->
+
 <van-skeleton title row="10" loading="{{loading}}">
 
 

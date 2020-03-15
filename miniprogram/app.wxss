@@ -26,6 +26,29 @@ page {
   justify-content: flex-start;
 }
 
+
+.remind{
+  display: flex;
+  justify-content: center;  
+  color: rgb(153, 153, 153);
+  font-size: 25rpx;
+  width: 90%;
+}
+.textArea{
+  background-color: #F6F6F6;
+  margin: 20rpx;
+  border-radius: 16rpx;
+  box-sizing: content-box;
+  padding: 20rpx;
+  position: relative;
+}
+.submitBtnView{
+  margin: 20rpx;
+}
+
+
+
+
 .userinfo, .uploader, .tunnel {
   margin-top: 40rpx;
   height: 140rpx;

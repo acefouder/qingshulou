@@ -15,7 +15,7 @@
 <view class='aboutbo'>
 
   <text class='hztitle' style="margin:30rpx">前世风霜，今生幽怨</text>
-  <ad unit-id="adunit-27aaa1280315e1a2"></ad>
+  <ad unit-id="adunit-d510be57ceca6db3"></ad>
   <text class='abcont'>一看桃花自悠然，几重烟雨渡青山。\n看不够，晓雾散，轻红醉洛川。\n二月桃花临水看，溪水青丝绕指转。\n转不完，浮生梦，共悲欢。\n三生桃花绘成扇，细雨落花人独看。\n唱不尽，相思阙，落鸿为谁传。\n四叹桃花入梦寒，几夜青灯为君燃。
 </text>
 
@@ -32,12 +32,12 @@
  
 
  <view class='submitBtnView' style="margin:30rpx">
-      <button type="primary" formType="submit" plain="true" bindtap="buttonTap">书中红颜</button>
+      <button type="primary" formType="submit" plain="true" bindtap="openVideoAd">书中红颜</button>
     <modal title="保存二维码" hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel">
       <view class="tanchuan">
         <image class="image" src="../../image/ab33.jpg" mode='aspectFill'></image>
       </view>
-      <view class='tctext'>红颜易老，花落人亡</view>
+      <view class='tctext'>雨醉江南，烟雨弥漫</view>
     </modal>
    
    
